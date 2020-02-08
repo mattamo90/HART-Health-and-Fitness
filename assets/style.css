@@ -28,36 +28,33 @@ h2{
   font-size: 280%;
 }
 
-ul {
-    list-style-type: none;
-}
 
-
-#logo, #menu {
-  line-height: 75px;
-}
-<!-------------------------------Nav Bar----------->
-#menu {
+.nav {
   font-size: 110%;
   list-style-type: none;
   letter-spacing: 4px;
+  background-color: #bebebe;
+  float: right;
+  margin-right: 10x;
 }
+
+
 
 #logo, #menu {
   line-height: 75px;
 }
 
-#menu li{
+.nav li{
   float: right;
   margin-right: 30px;
 }
 
-#menu a {
+.nav a {
   text-decoration: none;
   color: inherit;
 }
 
-#menu a:hover {
+.nav a:hover {
   border-bottom: 1px solid #777777;
 }
 
@@ -65,7 +62,7 @@ ul {
   border-bottom: 1px solid #777777;
 }
 
-<--------------------------------------------------------->
+
 
 #hero-image {
   height: 600px;
