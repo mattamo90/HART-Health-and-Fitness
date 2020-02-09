@@ -29,7 +29,7 @@ body {
 #hero-image {
   height: 600px;  
   width: 100%;
-  background-image: url('workspace/milestone1/assets/images/hero-image.jpg') no-repeat center center;
+  background-image: url('assets/images/hero-image.jpg') no-repeat center center;
 
   animation-name: hero-zoom;
   animation-duration: 5s;
@@ -85,8 +85,8 @@ body {
 
 <!--Services-->
 
-#container-services {
-
+#card {
+    background-color: red;
 }
 
 <!--ignore-->
