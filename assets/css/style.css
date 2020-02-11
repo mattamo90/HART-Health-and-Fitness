@@ -27,14 +27,11 @@ body {
 
 <!--HeroImage-->
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <img class="img-fluid" src="hero.jpg" />
-        </div>
-    </div>
-</div>
-
+.bigbanner {
+    background-image: url(../../images/rosie.jpg);
+    height: 500px;
+    padding-top: 150px;
+}
 
 
 #hero-outer {
@@ -84,7 +81,9 @@ body {
 
 <!--Services-->
 
-.bg-color-strength{
+.card {
+    width: 18rem;
+}
     background-color: ;
 }
 
