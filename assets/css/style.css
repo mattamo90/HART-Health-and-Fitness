@@ -26,17 +26,16 @@ body {
 }
 
 <!--HeroImage-->
-#hero-image {
-  height: 600px;  
-  width: 100%;
-  background-image: url('../images/hero.jpg') no-repeat center center;
 
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="img-fluid" src="hero.jpg" />
+        </div>
+    </div>
+</div>
 
 
-}
 
 #hero-outer {
   height: 600px;
@@ -85,86 +84,7 @@ body {
 
 <!--Services-->
 
-#card {
-    background-color: red;
+.bg-color-strength{
+    background-color: ;
 }
 
-<!--ignore-->
-
-#club-ethos {
-  height: 600px;
-}
-
-#center-about {
-  width: 33%;
-  margin:0 auto;
-}
-
-#left-about {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
-  
-}
-
-#right-about {
-  padding-top: 30px;
-  width: 33%;
-  float: right;
-}
-
-
-
-hr{
-  border-top:1px solid #777777;
-  width: 100%;
-  margin: 5px 0;
-}
-
-.left-about-heading {
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-heading {
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-  text-align: right;
-}
-
-.right-about-heading p {
-  text-align: right;
-}
-
-#welcome {
-  margin: 20px 0;
-  text-align: center;
-  font-size: 280%;
-}
-
-#circle-container {
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin:0 auto;
-}
-
-#circle-cover-bg {
-  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
-
-}
