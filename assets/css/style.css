@@ -21,7 +21,7 @@ footer {
     color: red;
     height: 50px
 }
-<!--Navbar-->
+/* <!--Navbar--> */
 .navbar {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -39,10 +39,10 @@ footer {
     justify-content: flex-end;
 }
 
-<!--HeroImage-->
+/* <!--HeroImage--> */
 
 .bigbanner {
-    background-image: url(../../images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     height: 500px;
     padding-top: 150px;
 }
@@ -93,7 +93,7 @@ footer {
 }
 
 
-<!--Services-->
+/* <!--Services--> */
 
 .card {
     width: 18rem;
