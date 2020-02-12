@@ -43,7 +43,8 @@ footer {
 
 .bigbanner {
     background-image: url(../images/hero.jpg);
-    height: 500px;
+    height: 100%;
+    Width: 50%;
     padding-top: 150px;
 }
 
