@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald&display=swap');
 
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
   font-family: Lato;
   color: #777777;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.container-fluid-footer {
+
+    color: red;
+    height: 50px
 }
 <!--Navbar-->
 .navbar {
