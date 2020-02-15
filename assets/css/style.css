@@ -39,8 +39,7 @@ footer {
 
 .bigbanner {
     height: 100%;
-    Width: 100%;
-    padding-top: 150px;
+    width: 100%;
 }
 
 #hero {
@@ -97,6 +96,11 @@ footer {
   
 }
 
+/* Font Awesome */
+
+.fas{
+    padding-left: 5px;
+}
 
 /* <!--Services--> */
 
