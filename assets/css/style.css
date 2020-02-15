@@ -57,6 +57,8 @@ footer {
     max-width: 100%;
   height: auto;
   border-radius: 8px;
+  opacity: 0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 /* About */
@@ -69,6 +71,7 @@ footer {
     background-color: #868e96;
     padding-right: 100px;
     padding-left: 100px;
+    padding-bottom: 50px;
 }
 
 #hero2 {
@@ -78,6 +81,7 @@ footer {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255)
 }
 
 /* Font Awesome */
@@ -88,8 +92,38 @@ footer {
 
 /* <!--Services--> */
 
+
+#Services {
+    font-family: 'Oswald';
+    padding-top: 50px;
+    font-size: 25px;
+    color: black;
+    background-color: #d1d1d1;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 0;
+    padding-bottom:50px;
+}
+
 .card-strength {
 
     background-color: red ;
 }
 
+
+/* Reviews */
+
+#Reviews {
+    font-family: 'Oswald';
+    padding-top: 50px;
+    font-size: 25px;
+    color: black;
+    background-color: #d1d1d1;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 0;
+    padding-bottom:50px;
+}
+
+
+/* FAQs */
