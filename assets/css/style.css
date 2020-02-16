@@ -1,17 +1,28 @@
-
-
+@import url('"https://fonts.googleapis.com/css?family=Lato|Odibee+Sans|Oswald|Roboto&display=swap"');
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Lato';
-  color: #777777;
+p {
+    font-family: 'lato';
+
 }
 
+h3 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
 
+h4 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
 
+h6 {
+    font-family: 'odibee';
+    text-transform: uppercase;
+}
 
 /* <!--Navbar--> */
 
@@ -39,24 +50,33 @@ body {
 
 #top-jumbo {
     margin-bottom: 0;
-    background-color: #d1d1d1;
+    padding: 0;
+    
+    /* background-image: url("assets/images/background.jpg"); */
 }
 
 .bigbanner {
     height: 100%;
     width: 100%;
+    /* background-image: url("assets/images/background.jpg"); */
 }
 
 #hero {
-    width: 480px;
-    margin-left: 40px; 
-    max-width: 50%;
-    display: inline-block;
-  height: auto;
-  border-radius: 8px;
-  opacity: 0.7;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    height: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%;
+
+
+
 }
+
 
 /* About */
 
@@ -88,10 +108,9 @@ body {
     padding-left: 5px;
 }
 
-/* <!--Services--> */
 
 
-/* Services section - Wanted a seperate color to stand out */
+/* Services section */
 
 
 
@@ -116,14 +135,33 @@ body {
     font-family: 'Oswald';
     padding-top: 50px;
     font-size: 25px;
-    color: black;
     background-color: #868e96;
     padding-right: 100px;
     padding-left: 100px;
     margin: 0;
     padding-bottom:50px;
+    color: white;
 }
 
+#Reviews.h3 {
+    padding-bottom: 50px;
+}
+
+.review1 {
+
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.review1 em {
+    font-size: 20px;
+}
+
+.review2 {
+    text-align: center;
+    vertical-align: middle;
+}
 
 /* FAQs */
 
