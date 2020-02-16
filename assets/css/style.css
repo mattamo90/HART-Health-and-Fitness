@@ -101,6 +101,10 @@ body {
     color: #fafafa;
     padding-bottom: 50px;
     padding-top: 50px;
+    padding-right: 4px;
+    padding-left: 4px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
