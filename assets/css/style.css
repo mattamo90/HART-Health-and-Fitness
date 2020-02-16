@@ -91,22 +91,19 @@ body {
 /* <!--Services--> */
 
 
-#Services {
-    font-family: 'Oswald';
+/* Services section - Wanted a seperate color to stand out */
+
+
+
+.container-wrap-blue {
+    
+    background-color: #2781ab;
+    color: #fafafa;
+    padding-bottom: 50px;
     padding-top: 50px;
-    font-size: 25px;
-    color: black;
-    background-color: #d1d1d1;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin: 0;
-    padding-bottom:50px;
 }
 
-.card-strength {
 
-    background-color: red ;
-}
 
 
 /* Reviews */
