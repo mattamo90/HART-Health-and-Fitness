@@ -10,11 +10,7 @@ body {
   color: #777777;
 }
 
-footer {
-    height: 100px;
-    width: 100%;
-    background-color: black;
-}
+
 
 
 /* <!--Navbar--> */
@@ -53,8 +49,9 @@ footer {
 
 #hero {
     width: 480px;
-    margin-left: 80px; 
-    max-width: 100%;
+    margin-left: 40px; 
+    max-width: 50%;
+    display: inline-block;
   height: auto;
   border-radius: 8px;
   opacity: 0.7;
@@ -72,6 +69,7 @@ footer {
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 50px;
+    
 }
 
 #hero2 {
@@ -118,7 +116,7 @@ footer {
     padding-top: 50px;
     font-size: 25px;
     color: black;
-    background-color: #d1d1d1;
+    background-color: #868e96;
     padding-right: 100px;
     padding-left: 100px;
     margin: 0;
@@ -127,3 +125,27 @@ footer {
 
 
 /* FAQs */
+
+/* Footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #868e96;
+    color: white;
+    margin-top: 20px;
+    padding-top: 8px;
+
+}
+
+
+.footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.footer i {
+    text-align: center;
+}
