@@ -177,6 +177,10 @@ h6 {
 
 /* FAQs */
 
+a:hover {
+    text-decoration: none;
+}
+
 .fas {
     color: white;
 }
@@ -275,5 +279,9 @@ html,body {
     padding-left: 50px;
 }
 
+.about {
+    padding-right: 50px;
+    padding-left: 50px;
+}
 
 }
