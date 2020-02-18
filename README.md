@@ -35,21 +35,39 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 JQuery
 The project uses JQuery to simplify DOM manipulation.
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+Nav Bar:
+Tested Nav Bar on Desktop and Mobile devices. (Via Chrome Developer tools and Iphone XR device)
+Tested on desktop by using each individual link heading and ensuring this scrolls to the correct section.
+On mobile, tested that the NAV Menu icon/dropdown worked and then again tested each individual nav heading scrolled to the correct section.
+
+Whilst testing the NAV elements, i discovered that the HREF link i had initially configured were causing an issue. Due to building a one page website,
+instead of using the # element alone, e.g #about (to navigate to the about section) i had stated index.html#about. This caused the entire page to reload everytime a nav heading was selected. This reloading issue further highlighted a problem with the size of the background image.
+Due to background image size it was taking too long for the site to load, impacting on user experience.  All issue resolved.
 
 Contact form:
-Go to the "Contact Us" page
+Go to the "Contact" Section,
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Website:
+Tested Website on Desktop and Mobile devices, (Via Chrome Developer tools and Iphone XR device).
+
+On testing across multiple devices and screen sizes I discovered issue with padding impacting readability on smaller screen sizes. 
+I have incorporated @media styling for smaller screen sizes to improve user design.
+
+Main issue i discovered was the horizontal overflow of the site. This meant that on larger screens there was a horizontal scroll bar present that revealed large amounts of white space to the right of the page.
+On smaller screen sizes this issue manifested itself in a permanent white line down the right side of the page.
+
+Using chrome developer tools, I tried to determine whether there was a particular element or section that was overflowing and causing this issue. However, there was no obvious cause.
+In the end I applied overflow-x: hidden within CSS in both the standard CSS and within the media query for smaller devices.
+
+
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
