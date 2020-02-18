@@ -1,4 +1,4 @@
-HART HEALTH AND FITNESS
+#HART HEALTH AND FITNESS
 
 This project is to build a HTML/CSS website for HART Health and Fitness solely for advertisement. Owner of HART (Joe Morgan) has recently moved to Copenhagan, Denmark and is trying to establish his brand overseas. 
 In his time in Denmark he has managed to form a good client base through word of mouth.
@@ -6,12 +6,12 @@ The website is designed to increase knowledge of the brand and services on offer
 The website provides a short background of the brand, the services offered, reviews from current clients, common questions and finally a contact form to register interest of services.
 
 
-UX
+###UX
 
 The website has been created for Joe Morgan, Owner of HART Health and Fitness. The website is designed to provide advertising and generate further business and spread knowledge of the brand.
 The website concisely provides all relevant information on the brand, services offered, positive reviews of Joe's services and a contact form. 
 
-User Story:
+#####User Story:
 
 User - Potential Customers/Clients
 
@@ -32,10 +32,10 @@ Make contacting as simple as possible (Contact forma and alternate methods of co
 
 
 
-Features
+###Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
+#####Existing Features
 Feature 1 - Nav Bar
 Nav Bar allows simple and efficient navigation to desired area of the web page.
 
@@ -47,7 +47,7 @@ This provides further contact details enabling users multiple ways to access ser
 Social media link, provides further show case of classes, client workouts and client progress.
 
 
-Features Left to Implement
+#####Features Left to Implement
 JavaScript incorporation on the contact form to link to business email address.
 
 Future Possibilites
@@ -62,7 +62,7 @@ Access to progress/goals
 
 
 
-Technologies Used
+###Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 HTML
@@ -78,7 +78,7 @@ JavaScript
 JQuery
 Used to enable features e.g contact form errors/missing information and action movement on the accordion features within the FAQ section.
 
-Testing
+###Testing
 
 Nav Bar:
 Tested Nav Bar on Desktop and Mobile devices. (Via Chrome Developer tools and Iphone XR device)
@@ -111,7 +111,8 @@ In the end I applied overflow-x: hidden within CSS in both the standard CSS and 
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
+###Deployment
+
 Project published to GitHub Pages via the GitHub website.
 
 This was done by navigating to the Repository.
@@ -119,7 +120,8 @@ Settings
 Scrolling to GitHub Pages Section
 Publish.
 
-Credits
+###Credits
+
 Content
 The code for the FAQ section was copied from https://mdbootstrap.com/docs/jquery/javascript/accordion/
 The code for the Contact form was taken from https://getbootstrap.com/docs/4.4/components/forms/
@@ -128,7 +130,8 @@ Other parts of the code were tailored from examples found at:
 https://getbootstrap.com/docs/4.4/
 https://www.w3schools.com 
 
-Media
+###Media
+
 Photos sourced from:
 Joe Morgan;
 unsplash.com
