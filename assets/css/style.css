@@ -139,8 +139,7 @@ h6 {
     padding-right: 4px;
     padding-left: 4px;
     text-align: center;
-    margin: 0 auto;
-    /* text-justify: inter-word; */
+    
     
 }
 
@@ -284,16 +283,13 @@ html,body {
     overflow-x:hidden;
 }
 
-.container-wrap-blue {
-    padding-right: 4px;
-    padding-left: 4px;
-}
-
-.container-wrap-blue p {
-    padding-right: 10%;
+ .container-wrap-blue {
+     padding-right: 10%;
     padding-left: 10%;
     word-wrap: break-word;
+    
 }
+
 
 #reviews {
     padding-right: 50px;
