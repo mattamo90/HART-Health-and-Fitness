@@ -90,7 +90,7 @@ h6 {
 
 /* About */
 
-.About {
+.about {
     font-family: 'Oswald';
     padding-top: 50px;
     font-size: 25px;
@@ -142,7 +142,7 @@ h6 {
 
 /* Reviews */
 
-#Reviews {
+#reviews {
     font-family: 'Oswald';
     padding-top: 50px;
     font-size: 20px;
@@ -154,7 +154,7 @@ h6 {
     color: white;
 }
 
-#Reviews.h3 {
+#reviews.h3 {
     padding-bottom: 50px;
 }
 
@@ -259,8 +259,20 @@ footer {
 
 @media only screen and (max-width:768px)
 {
+    
+    
 html,body {
     overflow-x:hidden;
+}
+
+.container-wrap-blue {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#reviews {
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 
