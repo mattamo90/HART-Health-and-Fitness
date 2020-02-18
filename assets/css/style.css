@@ -228,6 +228,12 @@ a:hover {
     padding-left: 100px;
     padding-bottom: 100px;
     
+    
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
 }
 
 .form-align {
@@ -290,6 +296,18 @@ html,body {
 .about {
     padding-right: 50px;
     padding-left: 50px;
+}
+
+.contact {
+    
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.form {
+    width: 75%;
+    margin: 0 auto;
 }
 
 }
