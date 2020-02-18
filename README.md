@@ -11,10 +11,26 @@ UX
 The website has been created for Joe Morgan, Owner of HART Health and Fitness. The website is designed to provide advertising and generate further business and spread knowledge of the brand.
 The website concisely provides all relevant information on the brand, services offered, positive reviews of Joe's services and a contact form. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+User Story:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+User - Potential Customers/Clients
+
+I want to be able to find out the following:
+
+Services available;
+How good the service is? (Reviews);
+How to get in touch?;
+
+User - Business Owner:
+
+I want to be able to provide the following:
+
+Be able to give potential customers a basic overview of what services are provided.
+Answer as many questions as possible.
+Provide feedback from current clients to encourage contact.
+Make contacting as simple as possible (Contact forma and alternate methods of contact)
+
+
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
