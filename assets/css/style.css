@@ -255,3 +255,13 @@ footer {
 .insta-icon:hover {
     opacity: 0.5;
 }
+
+
+@media only screen and (max-width:768px)
+{
+html,body {
+    overflow-x:hidden;
+}
+
+
+}
