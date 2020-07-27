@@ -80,36 +80,10 @@ Used to enable features e.g contact form errors/missing information and action m
 
 ### Testing
 
-Nav Bar:
-Tested Nav Bar on Desktop and Mobile devices. (Via Chrome Developer tools and Iphone XR device)
-Tested on desktop by using each individual link heading and ensuring this scrolls to the correct section.
-On mobile, tested that the NAV Menu icon/dropdown worked and then again tested each individual nav heading scrolled to the correct section.
-
-Whilst testing the NAV elements, i discovered that the HREF link i had initially configured were causing an issue. Due to building a one page website,
-instead of using the # element alone, e.g #about (to navigate to the about section) i had stated index.html#about. This caused the entire page to reload everytime a nav heading was selected. This reloading issue further highlighted a problem with the size of the background image.
-Due to background image size it was taking too long for the site to load, impacting on user experience.  All issue resolved.
-
-Contact form:
-Go to the "Contact" Section,
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-
-Website:
-Tested Website on Desktop and Mobile devices, (Via Chrome Developer tools and Iphone XR device).
-
-On testing across multiple devices and screen sizes I discovered issue with padding impacting readability on smaller screen sizes. 
-I have incorporated @media styling for smaller screen sizes to improve user design.
-
-Main issue i discovered was the horizontal overflow of the site. This meant that on larger screens there was a horizontal scroll bar present that revealed large amounts of white space to the right of the page.
-On smaller screen sizes this issue manifested itself in a permanent white line down the right side of the page.
-
-Using chrome developer tools, I tried to determine whether there was a particular element or section that was overflowing and causing this issue. However, there was no obvious cause.
-In the end I applied overflow-x: hidden within CSS in both the standard CSS and within the media query for smaller devices.
 
 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 ### Deployment
 
@@ -129,10 +103,11 @@ Other parts of the code were tailored from examples found at:
 
 https://getbootstrap.com/docs/4.4/
 https://www.w3schools.com 
+emailJS Documentation
+https://developers.google.com/maps/documentation 
 
 ### Media
 
 Photos sourced from:
-Joe Morgan;
 unsplash.com
 
